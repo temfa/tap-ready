@@ -112,12 +112,12 @@
 
 .phone-store {
   display: flex;
-  justify-content: space-between;
   position: absolute;
   top: 306px;
   align-items: center;
   left: 204px;
   width: 78%;
+  gap: 34px;
 }
 
 .phone-store div {

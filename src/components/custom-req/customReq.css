@@ -1,0 +1,59 @@
+.customreq-container {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  margin-top: 100px;
+  padding: 125px 0px;
+}
+
+.customreq-container > h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.customreq-email {
+  width: 29%;
+  max-width: 465px;
+  margin: 32px auto 0px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  display: flex;
+  gap: 10px;
+  padding: 20px 24px;
+  box-sizing: border-box;
+}
+
+.customreq-email input {
+  background: transparent;
+  border: none;
+  width: 79%;
+  color: rgba(255, 255, 255, 0.77);
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.836%; /* 24.454px */
+  letter-spacing: 0.24px;
+}
+
+.customreq-email input:focus {
+  outline: none;
+}
+
+.customreq-email button {
+  border-radius: 8px;
+  background: #05ff69;
+  padding: 16px 32px;
+  border: none;
+  color: #090921;
+  font-family: "Codec Pro", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125.389%; /* 17.554px */
+}

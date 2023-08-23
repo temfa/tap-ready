@@ -1,0 +1,180 @@
+.what-container {
+  padding: 56px 0px 0px;
+}
+
+.what-mouse,
+.what-head div {
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.what-head {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: fit-content;
+  margin: 77px auto 0px;
+}
+
+.what-head > h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.what-body {
+  width: 57%;
+  margin: 0px auto;
+  max-width: 904px;
+}
+
+.what-type {
+  display: flex;
+  gap: 26px;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.what-nfc {
+  border-radius: 32px;
+  background: #000;
+  width: 58%;
+  padding: 82px 59px 0px 71px;
+  box-sizing: border-box;
+}
+
+.what-nfc p {
+  color: #fff;
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.what-nfc h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.what-nfc div {
+  position: relative;
+  padding-top: 130px;
+}
+
+.what-nfc div img:first-child {
+  position: absolute;
+  top: 45px;
+}
+
+.what-andriod {
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.what-os {
+  border-radius: 32px;
+  background: #000;
+  width: 100%;
+  padding: 46px 57px 0px 67px;
+  box-sizing: border-box;
+}
+
+.what-os p {
+  color: #fff;
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.what-os h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.what-os div {
+  margin-top: 68px;
+}
+
+.what-compact {
+  border-radius: 32px;
+  background: #05ff69;
+  width: 100%;
+  padding: 32px 33px 68px 55px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 14px;
+}
+
+.what-compact h2 {
+  color: #090921;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  width: 61%;
+  /* line-height: 0%; */
+}
+
+.what-compact p {
+  color: #090921;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 0%; */
+}
+
+.what-compact div:first-child {
+  margin-top: 35px;
+  height: 236px;
+}
+
+.what-signal {
+  width: 12%;
+}
+
+.what-support {
+  width: 100%;
+  border-radius: 32px;
+  background: #000;
+  padding: 88px 127px 100px 127px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 34px;
+  margin-top: 25px;
+}
+
+.what-support h2 {
+  color: #fff;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.what-support div {
+  display: flex;
+  gap: 24px;
+}

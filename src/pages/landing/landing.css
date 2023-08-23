@@ -1,0 +1,7 @@
+.landing-container {
+  width: 100%;
+  background: #151515;
+  height: fit-content;
+  position: relative;
+  z-index: 500;
+}

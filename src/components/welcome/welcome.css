@@ -79,8 +79,8 @@
   width: 100%;
 }
 
-.phone-contents img {
-  margin: 0px auto;
+.phone-contents > img {
+  margin: 64px auto 0px;
   width: fit-content;
   display: block;
 }

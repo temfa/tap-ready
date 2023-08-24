@@ -1,0 +1,104 @@
+.power-container {
+  width: 57%;
+  margin: 200px auto 0px;
+  max-width: 904px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.power-second,
+.power-first {
+  display: flex;
+  gap: 32px;
+}
+
+.power-first-text {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.power-first-text h2 {
+  color: #fff;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  width: 69%;
+}
+
+.power-first-text p {
+  color: #fff;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.power-sdk {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 48%;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 58px 14px 14px 58px;
+  box-sizing: border-box;
+  transition: 1s all ease;
+}
+
+.power-sdk:hover {
+  border-radius: 32px;
+  background: #05ff69;
+  backdrop-filter: blur(20px);
+  transition: 1s all ease;
+}
+
+.power-sdk > h2 {
+  color: #fff;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.power-sdk:hover > h2,
+.power-sdk:hover p {
+  color: #090921;
+}
+
+.power-sdk p {
+  color: #fff;
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175.836%; /* 26.375px */
+  letter-spacing: 0.225px;
+  width: 90%;
+}
+
+.power-sdk-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.power-sdk-circle {
+  width: 150px;
+  height: 150px;
+  background: #05ff69;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 1s all ease;
+}
+
+.power-sdk:hover .power-sdk-circle {
+  background: #000000;
+}
